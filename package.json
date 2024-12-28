@@ -1,0 +1,43 @@
+{
+  "name": "thndrapp-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.8",
+    "@mui/material": "^6.1.6",
+    "axios": "^1.7.7",
+    "formik": "^2.4.6",
+    "lodash.debounce": "^4.0.8",
+    "next": "^14.2.17",
+    "qs": "^6.13.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
+    "react-player": "^2.16.0",
+    "swiper": "^11.1.15",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^20",
+    "@types/qs": "^6.9.17",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.16",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "typescript": "^5"
+  }
+}
